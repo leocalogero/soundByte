@@ -1,0 +1,265 @@
+/*=============================================
+=          Typography comment block           =
+=============================================*/
+
+// HEADER
+
+.header__box h1 {
+	font-family: pt sans;
+	color:  $podcast-white;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 400;
+	text-align: left;
+}
+
+.header__box h2, h3 {
+	font-family: pt sans;
+	color:  $podcast-white;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: left;
+}
+
+.header__box h4, h5 {
+	font-family: Roboto;
+	color:  $podcast-white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.header__box2__content1 h4 {
+	color: $podcast-green;
+	i {
+		margin-right: 5px;
+	}
+}
+
+.header__box2__content2 h4 {
+	color: $podcast-green;
+	font-size: 14px;
+}
+
+.header__box2__content2 p {
+	font-family: Roboto;
+	color:  $podcast-white;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+}
+
+// GALLERY
+
+.gallery__cell__content__episode h3 {
+	text-transform: uppercase;
+	font-family: pt sans;
+	color:  #ffffff;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: left;
+	margin-right: 50px;
+}
+
+.gallery__cell__content__episode h4 {
+	text-transform: uppercase;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.gallery__cell__content__episode span {
+	color: $podcast-green;
+	text-transform: uppercase;
+}
+
+.gallery__cell__content__time span, i {
+	color: $podcast-green;
+	margin-right: 5px;
+}
+
+.gallery__content__play h4 {
+	color: $podcast-green;
+	text-transform: uppercase;
+}
+
+// ABOUT
+
+.about__title h2 {
+	font-family: pt sans;
+	color:  $podcast-black;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.about__box__content1 h2 {
+	font-family: pt sans;
+	color:  #0ce682;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.about__box__content1 h4 {
+	font-family: Roboto;
+	color:  #1a171a;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.about__box__content1 p {
+	before: "poop";
+	font-family: Roboto;
+	color:  rgba(26, 23, 26, 0.5607840000000001);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: right;
+	margin-left: 100px;
+}
+
+.about__box__social1 i {
+	font-family: fontawesome;
+	color:  $podcast-black;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: right;
+	padding: 5px;
+}
+
+.about__box__social2 i {
+	font-family: fontawesome;
+	color:  $podcast-black;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 5px;
+}
+
+.about__box__content2 h2 {
+	font-family: pt sans;
+	color:  #0ce682;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.about__box__content2 h4 {
+	font-family: Roboto;
+	color:  #1a171a;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.about__box__content2 p {
+	font-family: Roboto;
+	color:  rgba(26, 23, 26, 0.5607840000000001);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	margin-right: 100px;
+}
+
+// SUPPORT
+
+.subfooter__box1 h3 {
+	text-transform: uppercase;
+	font-family: pt sans;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.subfooter__box2 h3 {
+	text-transform: uppercase;
+	font-family: pt sans;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.subfooter__box3 h3 {
+	text-transform: uppercase;
+	font-family: pt sans;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.subfooter__box4 h3 {
+	text-transform: uppercase;
+	color: $podcast-green;
+	font-family: pt sans;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;}
+
+// SUBFOOTER
+
+.subfooter__box3 h4 {
+	color: white;
+	text-transform: uppercase;
+	font-family: pt sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin: 0;
+}
+
+.subfooter__box3 h5 {
+	color: darkgrey;
+	text-transform: uppercase;
+	font-family: pt sans;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	margin: 0;
+}
+
+.subfooter__box4 h4 {
+	font-family: pt sans;
+	color: darkgrey;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.subfooter__box4 i {
+	color: white;
+	margin: 5px
+}
+
+.footer__box__follow h3 {
+	color: $podcast-green;
+}
+
+/*=====  End of Typography comment block  ======*/
