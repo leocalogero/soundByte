@@ -269,6 +269,17 @@ header {
   background-position: center;
   height: 100vh; }
 
+#menu-hamburger {
+  margin: 0 auto;
+  display: none;
+}
+
+#menu-hamburger .hamburger-inner,
+#menu-hamburger .hamburger-inner::after,
+#menu-hamburger .hamburger-inner::before {
+  background-color: white;
+}
+
 .header__box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -358,6 +369,12 @@ header {
   header {
     background-position: right;
     height: 100%; }
+  #menu-hamburger {
+    display: block;
+  }
+  #header-nav-primary:not(.is-active) {
+    display: none;
+  }
   .header__box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -563,7 +580,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   border-top: 12px solid rgba(255, 255, 255, 0.2);
-  width: 469px; }
+  width: 100%; }
 
 .gallery__cell__content__time {
   margin-left: auto; }
@@ -597,34 +614,6 @@ header {
     width: 100%; }
   .gallery__cell__image-6 {
     width: 100%; } }
-
-@media (max-width: 540px) {
-  .gallery__cell__image {
-    width: 420px; }
-  .gallery__cell__image-2 {
-    width: 420px; }
-  .gallery__cell__image-3 {
-    width: 420px; }
-  .gallery__cell__image-4 {
-    width: 420px; }
-  .gallery__cell__image-5 {
-    width: 420px; }
-  .gallery__cell__image-6 {
-    width: 420px; } }
-
-@media (max-width: 440px) {
-  .gallery__cell__image {
-    width: 300px; }
-  .gallery__cell__image-2 {
-    width: 300px; }
-  .gallery__cell__image-3 {
-    width: 300px; }
-  .gallery__cell__image-4 {
-    width: 300px; }
-  .gallery__cell__image-5 {
-    width: 300px; }
-  .gallery__cell__image-6 {
-    width: 300px; } }
 
 /*=====  End of Episode comment block  ======*/
 /*=============================================
@@ -673,7 +662,8 @@ header {
 .support {
   background-image: url(../assets/bg.png);
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 .support__box {
   display: -webkit-box;
