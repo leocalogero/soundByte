@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="styles/hamburgers.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Poppins:600|Roboto" rel="stylesheet">
 	<script src="https://use.fontawesome.com/ac8908f4f1.js"></script>
@@ -24,7 +25,12 @@
 		</div>
 		<nav>
 			<div class="wrapper">
-				<ul class='nav flex'>
+				<button class="hamburger hamburger--spring-r" type="button" id="menu-hamburger">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+				<ul class='nav flex' id="header-nav-primary">
 				   <li class='nav__link'><a href="#">home</a></li>
 				   <li class='nav__link'><a href="#">about</a></li>
 				   <li class='nav__link'><a href="#">episodes</a></li>
@@ -423,6 +429,9 @@
 	</footer>
 
 <!--====  End of Footer comment  ====-->
+
+	<!-- Custom JS -->
+	<script src="js/main.js"></script>
 
 </body>
 </html>
