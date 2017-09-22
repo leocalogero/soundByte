@@ -372,6 +372,12 @@ header {
   #menu-hamburger {
     display: block;
   }
+  #header-nav-primary {
+    position: absolute;
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+  }
   #header-nav-primary:not(.is-active) {
     display: none;
   }
